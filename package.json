@@ -4,7 +4,7 @@
   "description": "Timestamp Node service for Free Code Camp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js prod"
   },
   "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
   "license": "ISC",
