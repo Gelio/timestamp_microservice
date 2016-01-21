@@ -4,7 +4,7 @@
   "description": "Timestamp Node service for Free Code Camp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
   "license": "ISC",
