@@ -74,6 +74,10 @@ app.get(/^\/\w+%20\d{1,2},%20\d{4}$/, function(req, res) {
     res.send(JSON.stringify(returnObj));
 });
 
+app.get('/*', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
+
 app.listen(3000, function() {
     console.log('Started listening on port 3000');
 });
