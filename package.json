@@ -1,0 +1,18 @@
+{
+  "name": "timestamp_service",
+  "version": "1.0.0",
+  "description": "Timestamp Node service for Free Code Camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gelio/timestamp_microservice"
+  }
+}
